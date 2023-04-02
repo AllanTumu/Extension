@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Test Case Generator",
+    "version": "1.0",
+    "description": "Generate test cases using ChatGPT API",
+    "action": {
+      "default_icon": "icon.png",
+      "default_title": "ChatGPT Test Case Generator"
+    },
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Ctrl+Shift+Y",
+          "mac": "MacCtrl+Shift+Y"
+        },
+        "description": "Open ChatGPT Test Case Generator"
+      }
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
